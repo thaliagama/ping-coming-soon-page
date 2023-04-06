@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100;300;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Libre Franklin', sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#logo{
+    width: 60px;
+    margin: 30px 0 10px 0;
+}
+
+h1{
+    color:hsl(0, 0%, 59%);
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+span{
+    color: black;
+    font-weight: 800;
+}
+
+p{
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+#email{
+    width: 350px;
+    height: 40px;
+    border: 1px solid hsla(0, 0%, 59%, 0.808);
+    border-radius: 20px;
+    outline: none;
+}
+
+#btn{
+    width: 130px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    color: aliceblue;
+    background-color:hsl(223, 87%, 63%);
+    cursor: pointer;
+    box-shadow: 1px 3px 3px  #888888a9;
+}
+
+#btn:hover{
+    background-color:hsl(211, 40%, 28%);
+    transition: 0.2s;
+}
+
+#img-dashboard{
+    width: 500px;
+    margin-top: 15px;
+}
+
+#social-media{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+li a{
+    padding: 7px;
+    color:hsl(223, 87%, 63%);
+    font-size: 0.9em;
+}
+
+li a:hover{
+    color: hsl(211, 40%, 28%);
+}
+
+#copyright{
+    font-size: 0.7em;
+    font-weight: 300;
+    margin-top: 15px;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
