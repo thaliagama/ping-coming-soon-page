@@ -16,13 +16,13 @@ body{
 
 #logo{
     width: 60px;
-    margin: 30px 0 10px 0;
+    margin: 30px 0 30px 0;
 }
 
 h1{
     color:hsl(0, 0%, 59%);
-    font-weight: 400;
-    margin-bottom: 15px;
+    font-weight: 300;
+    margin-bottom: 10px;
 }
 
 span{
@@ -35,12 +35,16 @@ p{
     margin-bottom: 15px;
 }
 
-#email{
+.email{
     width: 350px;
     height: 40px;
     border: 1px solid hsla(0, 0%, 59%, 0.808);
     border-radius: 20px;
     outline: none;
+}
+
+.email-erro{
+    border: 1px solid hsl(354, 100%, 66%);
 }
 
 #btn{
@@ -59,9 +63,16 @@ p{
     transition: 0.2s;
 }
 
+.msgErro{
+    font-size: 0.8em;
+    padding-top: 2px;
+    color:hsl(354, 100%, 66%) ;
+}
+
 #img-dashboard{
     width: 500px;
-    margin-top: 15px;
+    height: 250px;
+    margin: 40px 0 15px 0;
 }
 
 #social-media{
