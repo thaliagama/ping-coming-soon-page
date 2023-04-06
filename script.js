@@ -11,9 +11,6 @@ function validarEmail(email) {
     if(validaEmail == false){
         mensagemErro()
     }
-    else{
-        msgEmailValido()
-    }
 }
 
 function mensagemErro(){
@@ -27,8 +24,3 @@ inputEmail.addEventListener('focus', ()=> {
     msg.innerHTML=''
     inputEmail.classList.remove('email-erro')
 })
-
-function msgEmailValido(){
-    msg.innerHTML = 'Thanks!'
-    msg.style.color = 'green'
-}
