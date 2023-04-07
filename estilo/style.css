@@ -64,6 +64,8 @@ p{
 }
 
 .msgErro{
+    text-align: center;
+    margin-right: 30px;
     font-size: 0.8em;
     padding-top: 2px;
     color:hsl(354, 100%, 66%) ;
@@ -103,4 +105,15 @@ li a:hover{
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+}
+
+@media  screen and (max-width: 500px) {
+    #img-dashboard{
+        width: 350px;
+    }
+
+    #btn{
+        width: 350px;
+        margin-top: 10px;
+    }
 }
